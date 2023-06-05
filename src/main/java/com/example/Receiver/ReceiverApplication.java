@@ -3,9 +3,7 @@ package com.example.Receiver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.azure.messaging.eventhubs.*;
-import com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore;
 import com.azure.messaging.eventhubs.models.*;
-import com.azure.storage.blob.*;
 import java.util.function.Consumer;
 
 import com.azure.identity.*;
