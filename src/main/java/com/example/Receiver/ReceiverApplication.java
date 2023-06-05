@@ -10,8 +10,8 @@ import com.azure.identity.*;
 
 @SpringBootApplication
 public class ReceiverApplication {
- private static final String namespaceName = "a216425-t3-musea2-evhns-ehnscl.servicebus.windows.net";
- private static final String eventHubName = "a216425-t3-musea2-evh-ehcl1";
+ private static final String namespaceName = "a216425-d4-musea2-evhns-ehns.servicebus.windows.net";
+ private static final String eventHubName = "a216425-d4-musea2-evh-ehcl";
  public static void main(String[] args) throws Exception{
 
  SpringApplication.run(ReceiverApplication.class, args);
